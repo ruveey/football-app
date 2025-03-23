@@ -1,59 +1,84 @@
 # FootballApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+Футбольное приложение, разработанное на Angular 19.2.1.
 
-## Development server
+## 🚀 Быстрый старт
 
-To start a local development server, run:
+### Предварительные требования
 
+- Node.js (версия 18.x или выше)
+- npm (версия 9.x или выше)
+- Angular CLI (`npm install -g @angular/cli`)
+
+### Установка
+
+1. Клонируйте репозиторий:
+```bash
+git clone <repository-url>
+cd FootballApp
+```
+
+2. Установите зависимости:
+```bash
+npm install
+```
+
+### Запуск приложения
+
+Для запуска в режиме разработки:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Приложение будет доступно по адресу: `http://localhost:4200`
 
-## Code scaffolding
+## 🛠 Разработка
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Создание новых компонентов
 
 ```bash
-ng generate --help
+ng generate component имя-компонента
+# или сокращенно
+ng g c имя-компонента
 ```
 
-## Building
+### Доступные команды
 
-To build the project run:
+| Команда | Описание |
+|---------|----------|
+| `ng serve` | Запуск сервера разработки |
+| `ng build` | Сборка проекта |
+| `ng test` | Запуск unit-тестов |
+| `ng e2e` | Запуск e2e тестов |
+| `ng lint` | Проверка кода |
 
+## 📦 Сборка
+
+Для production сборки:
 ```bash
-ng build
+ng build --configuration production
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Артефакты сборки будут сохранены в директории `dist/`.
 
-## Running unit tests
+## 🧪 Тестирование
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+### Unit тесты
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
+### E2E тесты
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 📚 Полезные ссылки
 
-## Additional Resources
+- [Документация Angular](https://angular.dev/)
+- [Angular CLI документация](https://angular.dev/tools/cli)
+- [Angular Material](https://material.angular.io/)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📝 Лицензия
+
+MIT
